@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100000000000000000001 /* InfluenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000001 /* InfluenceApp.swift */; };
+		A00100000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000002 /* ContentView.swift */; };
+		A00100000000000000000003 /* PlayerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000003 /* PlayerProfile.swift */; };
+		A00100000000000000000004 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000004 /* City.swift */; };
+		A00100000000000000000005 /* PropertyAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000005 /* PropertyAsset.swift */; };
+		A00100000000000000000006 /* BusinessAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000006 /* BusinessAsset.swift */; };
+		A00100000000000000000007 /* CareerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000007 /* CareerPath.swift */; };
+		A00100000000000000000008 /* InfluenceMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000008 /* InfluenceMetric.swift */; };
+		A00100000000000000000009 /* PoliticalOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000009 /* PoliticalOpportunity.swift */; };
+		A0010000000000000000000A /* GameEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000A /* GameEvent.swift */; };
+		A0010000000000000000000B /* MockGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000B /* MockGameData.swift */; };
+		A0010000000000000000000C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000C /* GameViewModel.swift */; };
+		A0010000000000000000000D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000D /* Formatters.swift */; };
+		A0010000000000000000000E /* InfluenceTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000E /* InfluenceTheme.swift */; };
+		A0010000000000000000000F /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000F /* SharedViews.swift */; };
+		A00100000000000000000010 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000010 /* DashboardView.swift */; };
+		A00100000000000000000011 /* InfluenceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000011 /* InfluenceMapView.swift */; };
+		A00100000000000000000012 /* CareerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000012 /* CareerView.swift */; };
+		A00100000000000000000013 /* PropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000013 /* PropertiesView.swift */; };
+		A00100000000000000000014 /* PoliticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000014 /* PoliticsView.swift */; };
+		A00100000000000000000015 /* GameSimulationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000015 /* GameSimulationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00200000000000000000001 /* InfluenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluenceApp.swift; sourceTree = "<group>"; };
+		A00200000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00200000000000000000003 /* PlayerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfile.swift; sourceTree = "<group>"; };
+		A00200000000000000000004 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		A00200000000000000000005 /* PropertyAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAsset.swift; sourceTree = "<group>"; };
+		A00200000000000000000006 /* BusinessAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAsset.swift; sourceTree = "<group>"; };
+		A00200000000000000000007 /* CareerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerPath.swift; sourceTree = "<group>"; };
+		A00200000000000000000008 /* InfluenceMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluenceMetric.swift; sourceTree = "<group>"; };
+		A00200000000000000000009 /* PoliticalOpportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalOpportunity.swift; sourceTree = "<group>"; };
+		A0020000000000000000000A /* GameEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEvent.swift; sourceTree = "<group>"; };
+		A0020000000000000000000B /* MockGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGameData.swift; sourceTree = "<group>"; };
+		A0020000000000000000000C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		A0020000000000000000000D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		A0020000000000000000000E /* InfluenceTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluenceTheme.swift; sourceTree = "<group>"; };
+		A0020000000000000000000F /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViews.swift; sourceTree = "<group>"; };
+		A00200000000000000000010 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A00200000000000000000011 /* InfluenceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluenceMapView.swift; sourceTree = "<group>"; };
+		A00200000000000000000012 /* CareerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerView.swift; sourceTree = "<group>"; };
+		A00200000000000000000013 /* PropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesView.swift; sourceTree = "<group>"; };
+		A00200000000000000000014 /* PoliticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticsView.swift; sourceTree = "<group>"; };
+		A00200000000000000000015 /* GameSimulationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSimulationService.swift; sourceTree = "<group>"; };
+		A00200000000000000000016 /* Influence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Influence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00400000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000002 /* Influence */,
+				A00400000000000000000010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00400000000000000000002 /* Influence */ = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000003 /* App */,
+				A00400000000000000000004 /* Models */,
+				A00400000000000000000005 /* ViewModels */,
+				A00400000000000000000006 /* Views */,
+				A0040000000000000000000D /* Services */,
+				A0040000000000000000000E /* Data */,
+				A0040000000000000000000F /* Utilities */,
+			);
+			path = Influence;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000001 /* InfluenceApp.swift */,
+				A00200000000000000000002 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000003 /* PlayerProfile.swift */,
+				A00200000000000000000004 /* City.swift */,
+				A00200000000000000000005 /* PropertyAsset.swift */,
+				A00200000000000000000006 /* BusinessAsset.swift */,
+				A00200000000000000000007 /* CareerPath.swift */,
+				A00200000000000000000008 /* InfluenceMetric.swift */,
+				A00200000000000000000009 /* PoliticalOpportunity.swift */,
+				A0020000000000000000000A /* GameEvent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000C /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000F /* SharedViews.swift */,
+				A00400000000000000000007 /* Map */,
+				A00400000000000000000008 /* Dashboard */,
+				A00400000000000000000009 /* Properties */,
+				A0040000000000000000000A /* Career */,
+				A0040000000000000000000B /* Politics */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000007 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000011 /* InfluenceMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000008 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000010 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000009 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000013 /* PropertiesView.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		A0040000000000000000000A /* Career */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000012 /* CareerView.swift */,
+			);
+			path = Career;
+			sourceTree = "<group>";
+		};
+		A0040000000000000000000B /* Politics */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000014 /* PoliticsView.swift */,
+			);
+			path = Politics;
+			sourceTree = "<group>";
+		};
+		A0040000000000000000000D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000015 /* GameSimulationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A0040000000000000000000E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000B /* MockGameData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0040000000000000000000F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000D /* Formatters.swift */,
+				A0020000000000000000000E /* InfluenceTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000016 /* Influence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00500000000000000000001 /* Influence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00A00000000000000000003 /* Build configuration list for PBXNativeTarget "Influence" */;
+			buildPhases = (
+				A00800000000000000000001 /* Sources */,
+				A00300000000000000000001 /* Frameworks */,
+				A00900000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Influence;
+			productName = Influence;
+			productReference = A00200000000000000000016 /* Influence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00600000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A00500000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A00A00000000000000000001 /* Build configuration list for PBXProject "Influence" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00400000000000000000001;
+			productRefGroup = A00400000000000000000010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00500000000000000000001 /* Influence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00900000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00800000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000001 /* InfluenceApp.swift in Sources */,
+				A00100000000000000000002 /* ContentView.swift in Sources */,
+				A00100000000000000000003 /* PlayerProfile.swift in Sources */,
+				A00100000000000000000004 /* City.swift in Sources */,
+				A00100000000000000000005 /* PropertyAsset.swift in Sources */,
+				A00100000000000000000006 /* BusinessAsset.swift in Sources */,
+				A00100000000000000000007 /* CareerPath.swift in Sources */,
+				A00100000000000000000008 /* InfluenceMetric.swift in Sources */,
+				A00100000000000000000009 /* PoliticalOpportunity.swift in Sources */,
+				A0010000000000000000000A /* GameEvent.swift in Sources */,
+				A0010000000000000000000B /* MockGameData.swift in Sources */,
+				A0010000000000000000000C /* GameViewModel.swift in Sources */,
+				A0010000000000000000000D /* Formatters.swift in Sources */,
+				A0010000000000000000000E /* InfluenceTheme.swift in Sources */,
+				A0010000000000000000000F /* SharedViews.swift in Sources */,
+				A00100000000000000000010 /* DashboardView.swift in Sources */,
+				A00100000000000000000011 /* InfluenceMapView.swift in Sources */,
+				A00100000000000000000012 /* CareerView.swift in Sources */,
+				A00100000000000000000013 /* PropertiesView.swift in Sources */,
+				A00100000000000000000014 /* PoliticsView.swift in Sources */,
+				A00100000000000000000015 /* GameSimulationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00B00000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00B00000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00B00000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Influence;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influencegame.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00B00000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Influence;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influencegame.mvp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00A00000000000000000001 /* Build configuration list for PBXProject "Influence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00B00000000000000000001 /* Debug */,
+				A00B00000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00A00000000000000000003 /* Build configuration list for PBXNativeTarget "Influence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00B00000000000000000003 /* Debug */,
+				A00B00000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00600000000000000000001 /* Project object */;
+}
